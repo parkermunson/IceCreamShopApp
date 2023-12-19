@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "cooper-black-std", serif;
+  src: url("https://use.typekit.net/tpc3mqh.css");
+}
+
+@font-face {
+  font-family: "profile-pro", sans-serif;
+  src: url("https://use.typekit.net/tpc3mqh.css");
+}
+
+h1 {
+  font-family: "cooper-black-std", serif;
+}
+
+body {
+  font-family: "profile-pro", sans-serif;
+
+}
+
+button {
+  font-family: "profile-pro";
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  border: solid 1px blue;
+
+}
+
+.flavors-list {
+  padding: 10px;
+}
+
